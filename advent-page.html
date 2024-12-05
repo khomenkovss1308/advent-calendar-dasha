@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advent calendar for Dasha</title>
+    <link rel="stylesheet" href="styles/advent.css">
+</head>
+<body>
+    <div class="popup-overlay" id="popup-overlay"></div>
+
+    <ul class="advent__list">
+        <li class="advent__list-item" data-popup="popup-1" data-day="1">1</li>
+        <li class="advent__list-item" data-popup="popup-2" data-day="2">2</li>
+        <li class="advent__list-item" data-popup="popup-3" data-day="3">3</li>
+        <li class="advent__list-item" data-popup="popup-4" data-day="4">4</li>
+        <li class="advent__list-item" data-popup="popup-5" data-day="5">5</li>
+        <li class="advent__list-item" data-popup="popup-6" data-day="6">6</li>
+        <li class="advent__list-item" data-popup="popup-7" data-day="7">7</li>
+        <li class="advent__list-item" data-popup="popup-8" data-day="8">8</li>
+        <li class="advent__list-item" data-popup="popup-9" data-day="9">9</li>
+        <li class="advent__list-item" data-popup="popup-10" data-day="10">10</li>
+        <li class="advent__list-item" data-popup="popup-11" data-day="11">11</li>
+        <li class="advent__list-item" data-popup="popup-12" data-day="12">12</li>
+        <li class="advent__list-item" data-popup="popup-13" data-day="13">13</li>
+        <li class="advent__list-item" data-popup="popup-14" data-day="14">14</li>
+        <li class="advent__list-item" data-popup="popup-15" data-day="15">15</li>
+        <li class="advent__list-item" data-popup="popup-16" data-day="16">16</li>
+        <li class="advent__list-item" data-popup="popup-17" data-day="17">17</li>
+        <li class="advent__list-item" data-popup="popup-18" data-day="18">18</li>
+        <li class="advent__list-item" data-popup="popup-19" data-day="19">19</li>
+        <li class="advent__list-item" data-popup="popup-20" data-day="20">20</li>
+        <li class="advent__list-item" data-popup="popup-21" data-day="21">21</li>
+        <li class="advent__list-item" data-popup="popup-22" data-day="2">22</li>
+        <li class="advent__list-item" data-popup="popup-23" data-day="23">23</li>
+        <li class="advent__list-item" data-popup="popup-24" data-day="24">24</li>
+        <li class="advent__list-item" data-popup="popup-25" data-day="25">25</li>
+        <li class="advent__list-item" data-popup="popup-26" data-day="26">26</li>
+        <li class="advent__list-item" data-popup="popup-27" data-day="27">27</li>
+        <li class="advent__list-item" data-popup="popup-28" data-day="28">28</li>
+        <li class="advent__list-item" data-popup="popup-29" data-day="29">29</li>
+        <li class="advent__list-item" data-popup="popup-30" data-day="30">30</li>
+        <li class="advent__list-item" data-popup="popup-31" data-day="31">31</li>
+    </ul>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="popup-close">&times;</span>
+            <div id="popup-text"></div>
+        </div>
+    </div>
+
+    <div id="popup-unavailable" style="display: none;">
+        <h2>Доступ закрыт</h2>
+        <img src="images/close.jpg" alt="">
+        <p>Солнышко! Этот день ещё не настал. Пожалуйста, дождись нужной даты!</p>
+    </div>
+    
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
